@@ -1,0 +1,11 @@
+node_modules
+package-lock.json
+coverage
+tests
+types
+lib
+verd/storage
+verd/plugins
+verd/htpasswd
+*.js
+!/src/**

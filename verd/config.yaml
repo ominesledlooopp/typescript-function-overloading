@@ -1,0 +1,29 @@
+storage: ./storage
+plugins: ./plugins
+web:
+  title: Verdaccio
+  gravatar: true
+  darkMode: true
+auth:
+  htpasswd:
+    file: ./htpasswd
+uplinks:
+  npmjs:
+    url: https://registry.npmjs.org/
+packages:
+  '@*/*':
+    access: $all
+    publish: $all
+    unpublish: $all
+    proxy: npmjs
+  '**':
+    access: $all
+    publish: $authenticated
+    unpublish: $authenticated
+    proxy: npmjs
+server:
+  keepAliveTimeout: 60
+middlewares:
+  audit:
+    enabled: true
+log: { type: stdout, format: pretty, level: http }

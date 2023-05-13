@@ -1,0 +1,61 @@
+{
+  "name": "amazing-types",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "description": "Just a bite around Types behind function overloading in Typescript",
+  "type": "module",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "packageManager": "npm@9.6.6",
+  "engines": {
+    "node": "^20"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "files": [
+    "lib",
+    "index.js",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "registry": "http://localhost:4873",
+    "access": "public"
+  },
+  "scripts": {
+    "just:after:cloning": "sh ./shell_script/auto.sh -f -S",
+    "publish:package": "sh ./shell_script/auto.sh -p -m \"next version\" -S",
+    "build": "tsc && npx eslint . --fix --ext .ts --ext .js",
+    "lint": "npx eslint . --ext .ts --ext .js",
+    "lint-fix": "npx eslint . --fix --ext .ts --ext .js",
+    "tsc-watch": "npx tsc --watch",
+    "test": "npx 4t unit",
+    "t8": "npx t8 --c8='src:./src|html:|no-questions:|no-print:|all:' unit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.59.5",
+    "@typescript-eslint/parser": "^5.59.5",
+    "eslint": "^8.40.0",
+    "trythistrythat": "^3.0.11",
+    "typescript": "^5.0.4"
+  },
+  "keywords": [
+    "types"
+  ],
+  "author": {
+    "name": "Simone Del Popolo",
+    "email": "simonedelpopolo@outlook.com",
+    "url": "https://github.com/simonedelpopolo"
+  },
+  "homepage": "https://github.com/ominesledlooopp/typescript-function-overloading#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ominesledlooopp/typescript-function-overloading.git"
+  },
+  "bugs": {
+    "email": "simonedelpopolo@outlook.com",
+    "url": "https://github.com/ominesledlooopp/typescript-function-overloading/issues"
+  }
+}
