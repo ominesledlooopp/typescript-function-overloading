@@ -7,6 +7,7 @@ ___
 ___
 
 ## Index of content
+
 - [Greetings and introduction](#greetings-and-introduction)
 - [Pre-requisites](#pre-requisite)
 - [Behind the scenes](#behind-the-scenes)
@@ -90,18 +91,14 @@ I will explain everything, remember this is “THE Koolthings SERIIIIEEES!”
 
 ___
 
-For today, it’s enough.
-
-Go to day two, from the kinda pagination below, when ready.
-
-___
-
 KINDA OF PAGINATION (GitHub)  
 ℹ on the blog post it will be filled with links to blog posts and not to GitHub, just so you know.
 
 **[introduction](https://github.com/ominesledlooopp/typescript-function-overloading#readme/)**
-|[day two](https://github.com/ominesledlooopp/typescript-function-overloading/blob/main/pages/day2.md)
-|[]()
+| [day two](https://github.com/ominesledlooopp/typescript-function-overloading/blob/main/pages/day2.md)
+| [day three](https://github.com/ominesledlooopp/typescript-function-overloading/blob/main/pages/day3.md)
+| [day four](https://github.com/ominesledlooopp/typescript-function-overloading/blob/main/pages/day4.md)
+| []()
 
 ___
 

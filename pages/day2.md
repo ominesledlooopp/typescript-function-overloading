@@ -195,18 +195,14 @@ granting only the necessary permissions for the application to function correctl
 
 ___
 
-For today, it’s enough.
-
-Go to day three, from the kinda pagination below, when ready.
-
-___
-
 KINDA OF PAGINATION (GitHub)  
 ℹ on the blog post it will be filled with links to blog posts and not to GitHub, just so you know.
 
 [introduction](https://github.com/ominesledlooopp/typescript-function-overloading#readme/)
-|**[day two](https://github.com/ominesledlooopp/typescript-function-overloading/blob/main/pages/day2.md)**
-|[]()
+| **[day two](https://github.com/ominesledlooopp/typescript-function-overloading/blob/main/pages/day2.md)**
+| [day three](https://github.com/ominesledlooopp/typescript-function-overloading/blob/main/pages/day3.md)
+| [day four](https://github.com/ominesledlooopp/typescript-function-overloading/blob/main/pages/day4.md)
+| []()
 
 ___
 
